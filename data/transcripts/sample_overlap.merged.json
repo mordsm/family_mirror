@@ -1,0 +1,20 @@
+[
+  {
+    "segment_id": "seg_0001",
+    "start": 0.0,
+    "end": 3.0,
+    "speaker": "Speaker_1",
+    "text": "first speaker",
+    "confidence": "sample",
+    "flags": []
+  },
+  {
+    "segment_id": "seg_0002",
+    "start": 2.4,
+    "end": 4.0,
+    "speaker": "Speaker_2",
+    "text": "second speaker overlaps",
+    "confidence": "sample",
+    "flags": []
+  }
+]

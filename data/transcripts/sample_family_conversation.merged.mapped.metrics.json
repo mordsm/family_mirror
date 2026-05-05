@@ -1,0 +1,54 @@
+{
+  "total_segments": 6,
+  "conversation_start": 0.12,
+  "conversation_end": 14.91,
+  "speakers": {
+    "דויד": {
+      "total_speaking_seconds": 4.92,
+      "turn_count": 3,
+      "average_turn_seconds": 1.64
+    },
+    "משה": {
+      "total_speaking_seconds": 5.13,
+      "turn_count": 3,
+      "average_turn_seconds": 1.71
+    }
+  },
+  "long_silences": [
+    {
+      "start": 1.89,
+      "end": 2.88,
+      "duration_seconds": 0.99,
+      "after_segment_id": "ref_0001",
+      "before_segment_id": "ref_0002"
+    },
+    {
+      "start": 4.38,
+      "end": 5.31,
+      "duration_seconds": 0.93,
+      "after_segment_id": "ref_0002",
+      "before_segment_id": "ref_0003"
+    },
+    {
+      "start": 6.72,
+      "end": 7.62,
+      "duration_seconds": 0.9,
+      "after_segment_id": "ref_0003",
+      "before_segment_id": "ref_0004"
+    },
+    {
+      "start": 10.11,
+      "end": 11.16,
+      "duration_seconds": 1.05,
+      "after_segment_id": "ref_0004",
+      "before_segment_id": "ref_0005"
+    },
+    {
+      "start": 13.11,
+      "end": 13.98,
+      "duration_seconds": 0.87,
+      "after_segment_id": "ref_0005",
+      "before_segment_id": "ref_0006"
+    }
+  ]
+}

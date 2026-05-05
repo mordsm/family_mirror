@@ -1,0 +1,80 @@
+[
+  {
+    "segment_id": "ref_0001",
+    "start": 0.12,
+    "end": 1.89,
+    "speaker": "משה",
+    "text": "משה: מה קורה דויד?",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_1"
+  },
+  {
+    "segment_id": "ref_0002",
+    "start": 2.88,
+    "end": 4.38,
+    "speaker": "דויד",
+    "text": "דויד: עזוב אותי. אין לי כח אליך.",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_2"
+  },
+  {
+    "segment_id": "ref_0003",
+    "start": 5.31,
+    "end": 6.72,
+    "speaker": "משה",
+    "text": "משה: בא לך ללכת לפארק?",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_1"
+  },
+  {
+    "segment_id": "ref_0004",
+    "start": 7.62,
+    "end": 10.11,
+    "speaker": "דויד",
+    "text": "דויד: אני אחשוב על זה. אני רוצה לנוח.",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_2"
+  },
+  {
+    "segment_id": "ref_0005",
+    "start": 11.16,
+    "end": 13.11,
+    "speaker": "משה",
+    "text": "משה: הכנתי ארוחת בוקר.",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_1"
+  },
+  {
+    "segment_id": "ref_0006",
+    "start": 13.98,
+    "end": 14.91,
+    "speaker": "דויד",
+    "text": "דויד: תודה.",
+    "confidence": "reference",
+    "flags": [
+      "reference_transcript",
+      "speaker_mapped"
+    ],
+    "speaker_label": "Speaker_2"
+  }
+]

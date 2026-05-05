@@ -1,0 +1,26 @@
+[project]
+name = "family-mirror"
+version = "0.1.0"
+description = "Local-first Hebrew family conversation transcription MVP"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "imageio-ffmpeg>=0.5",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+transcription = [
+  "faster-whisper>=1.0",
+]
+vad = [
+  "silero-vad>=5.1",
+  "torch>=2.2",
+]
+test = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

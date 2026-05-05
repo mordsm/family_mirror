@@ -1,0 +1,32 @@
+project:
+  name: "Family Mirror"
+  language: "he"
+
+privacy:
+  local_only: true
+  delete_raw_audio_after_processing: false
+  allow_external_api: false
+
+audio:
+  sample_rate: 16000
+  mono: true
+  normalize_volume: true
+
+vad:
+  tool: "silero"
+  min_speech_duration_ms: 250
+  min_silence_duration_ms: 500
+  fallback_frame_ms: 30
+  fallback_energy_threshold: 500
+
+transcription:
+  engine: "faster-whisper"
+  model: "medium"
+  language: "he"
+  compute_type: "int8"
+
+report:
+  format: "markdown"
+  language: "he"
+  include_uncertainty: true
+  include_evidence_segments: true

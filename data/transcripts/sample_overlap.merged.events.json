@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "event_0001",
+    "type": "interruption_candidate",
+    "start": 2.4,
+    "end": 3.0,
+    "duration_seconds": 0.6,
+    "speakers": [
+      "Speaker_1",
+      "Speaker_2"
+    ],
+    "segment_ids": [
+      "seg_0001",
+      "seg_0002"
+    ],
+    "evidence": "Speaker_2 starts at 2.400s before Speaker_1 ends at 3.000s",
+    "confidence": "medium",
+    "note_he": "ייתכן שהייתה קטיעה, אך יש דיבור חופף ולכן רמת הביטחון בינונית."
+  }
+]
